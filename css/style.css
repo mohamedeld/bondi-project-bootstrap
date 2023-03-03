@@ -2,6 +2,8 @@
     --dark-color:#19283f;
     --white-color:#fff;
     --green-color:#33d1cc;
+    --red-color:#ff3150;
+    --yellow-color:#ffc400;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -36,4 +38,21 @@ body{
     border:1px solid var(--green-color);
     color:var(--green-color);
 }
+.main-btn{
+    background:var(--red-color);
+    color:var(--yellow-color);
+    padding:0.5rem 1rem;
+    border:none;
+    outline:none;
+    text-decoration: none;
+}
+.main-btn:hover{
+    background:var(--red-color);
+    color:var(--yellow-color);
+}
 /* end navbar */
+
+.landing{
+    background:var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
